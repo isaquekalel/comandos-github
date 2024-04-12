@@ -1,0 +1,143 @@
+git init: Inicializa um novo repositório Git em um diretório existente ou cria um novo diretório.
+
+git clone: Clona um repositório Git existente de um local remoto para o seu computador.
+
+git add: Adiciona mudanças no diretório de trabalho ao índice (staging area) para serem incluídas no próximo commit.
+
+git commit: Registra as mudanças no repositório, criando um novo commit com uma mensagem descritiva.
+
+git push: Envia os commits locais para o repositório remoto.
+
+git pull: Obtém as atualizações do repositório remoto e as mescla com o seu branch atual.
+
+git branch: Lista, cria ou exclui branches. Também pode ser usada para renomear branches.
+
+git checkout: Alterna entre branches ou restaura arquivos do diretório de trabalho para um estado específico.
+
+git merge: Combina o histórico de dois branches diferentes.
+
+git status: Exibe o estado atual do diretório de trabalho e do índice.
+
+git log: Mostra o histórico de commits do repositório.
+
+git diff: Mostra as diferenças entre as alterações que ainda não foram adicionadas ao índice.
+
+git stash: Salva as mudanças temporariamente, permitindo que você as aplique posteriormente.
+
+git fetch: Busca todas as branches de um repositório remoto, mas não mescla com o seu branch atual.
+git reset: Remove commits específicos, atualiza a posição do HEAD ou restaura arquivos para um estado específico.
+
+git remote: Gerencia os repositórios remotos vinculados ao seu projeto.
+
+git fetch: Baixa objetos e referências de outro repositório.
+
+git rebase: Aplica commits de uma branch em outra, reescrevendo o histórico do projeto.
+
+git tag: Cria, lista, exclui ou verifica tags marcadas com commits específicos.
+
+git cherry-pick: Aplica commits específicos de uma branch para outra.
+
+git revert: Desfaz commits anteriores, criando um novo commit que reverte as mudanças.
+
+git bisect: Ajuda a encontrar o commit específico que introduziu um bug usando pesquisa binária.
+
+git blame: Mostra quem modificou pela última vez cada linha de um arquivo, ajudando na identificação de responsáveis por mudanças.
+
+git show: Exibe informações sobre um commit específico, mostrando as alterações introduzidas.
+
+git clean: Remove arquivos não rastreados do diretório de trabalho.
+
+git grep: Procura padrões em arquivos de código-fonte.
+
+git submodule: Gerencia submódulos dentro do repositório Git.
+
+git remote show: Exibe informações sobre um repositório remoto, incluindo URLs, branches e mais.
+git config: Configura opções do Git, como nome de usuário, email, cores e mais.
+
+git reflog: Mostra o histórico de referências, útil para recuperar commits perdidos ou desfazer ações acidentais.
+
+git instaweb: Inicia um servidor web para navegar pelo histórico do projeto visualmente.
+
+git shortlog: Gera um resumo do histórico de commits, agrupando-os por autor.
+
+git archive: Cria um arquivo zip ou tar de um branch específico.
+
+git fsck: Verifica a integridade do banco de dados do Git.
+
+git rerere: Ativa a reutilização de resoluções de conflito, gravando automaticamente resoluções de conflito para uso futuro.
+
+git p4: Ferramentas de integração Git-Perforce, para trabalhar com repositórios Perforce.
+
+git svn: Ferramentas de integração Git-Subversion, para trabalhar com repositórios Subversion.
+
+git mergetool: Abre uma ferramenta de mesclagem externa para resolver conflitos de mesclagem.
+
+git gui: Inicia a interface gráfica do usuário Git.
+
+git stash pop: Aplica a última entrada no stash e a remove do stash.
+
+git stash apply: Aplica a última entrada no stash, mas não a remove do stash.
+
+git stash list: Lista todas as entradas no stash.
+
+git clean -f: Remove os arquivos listados pelo comando git clean.
+
+git clean -fd: Remove arquivos não rastreados e diretórios vazios.
+
+git clean -xdf: Remove arquivos não rastreados, diretórios vazios e arquivos ignorados.
+
+git bisect start: Inicia uma sessão de bisect para encontrar o commit que introduziu um problema.
+
+git bisect good: Marca o commit atual como "bom" (não contém o bug).
+
+git bisect bad: Marca o commit atual como "ruim" (contém o bug).
+
+git bisect reset: Retorna o HEAD para o estado original antes do bisect.
+
+git revert --no-commit: Permite reverter mudanças sem criar um commit imediato.
+
+git log --oneline: Mostra o histórico de commits em uma única linha por commit.
+
+git log --graph: Exibe o histórico de commits em forma de gráfico ASCII.
+
+git log --author="nome": Filtra o histórico de commits pelo autor especificado.
+
+git log --grep="palavra-chave": Filtra o histórico de commits pela mensagem do commit.
+
+git log --since="data": Mostra commits desde a data especificada.
+
+git log --until="data": Mostra commits até a data especificada.
+
+git log --stat: Mostra estatísticas resumidas de alterações para cada commit.
+
+git log --follow nome_arquivo: Mostra o histórico de um arquivo, mesmo se ele foi renomeado.
+
+git blame -L linha_inicio,linha_fim nome_arquivo: Mostra quem modificou as linhas específicas de um arquivo e em qual commit.
+
+git show HEAD: Mostra as mudanças no último commit.
+
+git show HEAD~1: Mostra as mudanças no commit anterior ao último.
+
+git show HEAD~2: Mostra as mudanças no segundo commit anterior ao último.
+
+git show HEAD^: Similar ao HEAD~1, mostra as mudanças no commit anterior.
+
+git show HEAD^2: Mostra as mudanças no segundo pai de um commit de merge.
+
+git diff HEAD: Mostra as diferenças entre o diretório de trabalho e o último commit.
+
+git diff --cached: Mostra as diferenças entre o índice (staging area) e o último commit.
+
+git diff branch1..branch2: Mostra as diferenças entre duas branches.
+
+git diff commit1 commit2: Mostra as diferenças entre dois commits.
+
+git diff --name-only: Mostra apenas os nomes dos arquivos alterados.
+
+git diff --name-status: Mostra os nomes e o status dos arquivos alterados.
+
+git diff --color-words: Mostra as diferenças de palavras de forma colorida.
+
+git diff --shortstat: Mostra estatísticas resumidas das alterações.
+
+git clean -n: Mostra quais arquivos seriam removidos pelo git clean sem realmente removê-los.
